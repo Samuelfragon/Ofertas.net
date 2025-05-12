@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OfertasNet</title>
+  <meta name="description" content="Anuncie produtos e negocie pelo WhatsApp no Ofertas.net. Rápido e direto!">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 20px 10px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    img.banner {
+      max-width: 100%;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+
+    main {
+      margin: 30px 20px;
+    }
+
+    .box {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin: 0 auto 20px;
+      padding: 20px;
+    }
+
+    .box h2 {
+      color: #333;
+    }
+
+    .whatsapp-button {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+
+    .whatsapp-button:hover {
+      background-color: #1ebe5d;
+    }
+  </style>
+</head>
+<body>
+  <header>Ofertas.net</header>
+  <img src="https://i.imgur.com/2gTwYMT.jpeg" alt="Banner Ofertas.net" class="banner">
+  <main>
+    <div class="box">
+      <h2>Anuncie produtos e negocie pelo WhatsApp</h2>
+      <p>Rápido e direto!</p>
+      <a href="https://wa.me/5511912345678" class="whatsapp-button" target="_blank">Entrar em contato</a>
+    </div>
+  </main>
+</body>
+</html>
